@@ -14,7 +14,9 @@
 h1{
     font-size:48pt;
 }
-
+ul{
+    list-style:none;
+}
 .quotes {
     text-align: center;
 }
@@ -51,6 +53,18 @@ h1{
     margin:0;
     padding:0;
 }
+.column3{
+    width:16.6vw;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.text h2{
+    font-size:16pt;
+}
+.text {
+    font-size:12pt;
+}
 .holder {
     display: table-cell;
     vertical-align: middle;
@@ -62,14 +76,23 @@ h1{
     color:#fec04f;
     background-color:#252525;
 }
+.black a{
+    color:#ffffff;
+}
 .yellow {
     color: #252525;
     background-color: #fec04f;
 }
-.yellow .bold{
-    font-size:36pt;
+.yellow a{
+    color:#252525;
+}
+p.bold{
+    font-size:20pt;
 }
 .white {
     color: #252525;
     background-color: #fefefe;
+}
+.white a{
+    color: #252525;
 }

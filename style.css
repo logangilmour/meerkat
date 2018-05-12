@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Armata', sans-serif;
+    text-shadow: 0.2px -2px 4px #00000033, 0.2px 2px 4px #ffffff22;
 }
 .section{
     height:100vh;
@@ -46,13 +47,43 @@ ul{
 .twocol h1{
     text-align:center;
 }
-
+ol {
+    font-family: 'Slabo 27px', serif;
+    font-size: 24pt;
+    line-height: 28pt;
+    padding-left:0;
+}
+ol li{
+    padding-bottom:28pt;
+}
 .column{
-    width:25vw;
+    width:23vw;
     float:left;
     margin:0;
-    padding:0;
+    padding:1vw;
+
 }
+
+ul.buttons{
+    padding-left:0;
+}
+
+ul.buttons li {
+    text-align:center;
+    box-shadow: #00000044 1px 2px 8px;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    padding:10pt;
+    margin:20pt auto;
+    width:600px;
+    font-size:16pt;
+}
+ul.buttons a{
+    text-decoration:none;
+}
+    ul.buttons a:hover {
+        color: #fec04f;
+    }
 .column3{
     width:16.6vw;
     float:left;
@@ -62,8 +93,11 @@ ul{
 .text h2{
     font-size:16pt;
 }
-.text {
-    font-size:12pt;
+.text p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 24pt;
+    line-height: 28pt;
+    padding-left: 0;
 }
 .holder {
     display: table-cell;
@@ -72,16 +106,17 @@ ul{
     padding-left: 25vw;
     padding-right: 25vw;
 }
-.black{
-    color:#fec04f;
-    background-color:#252525;
+.black {
+    color: #fec04f;
+    background-color: #252525;
+    background: linear-gradient(to bottom,#252525 0%, #1c1c1c 100%);
 }
 .black a{
     color:#ffffff;
 }
 .yellow {
     color: #252525;
-    background-color: #fec04f;
+    background: linear-gradient(to bottom,#fec04f 0%, #e0a843 100%);
 }
 .yellow a{
     color:#252525;
@@ -92,6 +127,7 @@ p.bold{
 .white {
     color: #252525;
     background-color: #fefefe;
+    background: linear-gradient(to bottom,#fefefe 0%, #efefef 100%);
 }
 .white a{
     color: #252525;

@@ -7,18 +7,15 @@
 }
 .section{
     height:100vh;
-
+    display:table;
     vertical-align:middle;
-    width:100%;
     padding:24pt 0;
     margin:0;
-}
-.centerer{
-        display:table;
 }
 .holder {
     display: table-cell;
     vertical-align: middle;
+    overflow-x: visible;
     width: 50vw;
     padding-left: 25vw;
     padding-right: 25vw;
@@ -68,13 +65,6 @@ ol {
 ol li{
     padding-bottom:28pt;
 }
-.column{
-    width:23vw;
-    float:left;
-    margin:0;
-    padding:1vw;
-
-}
 
 ul.buttons{
     padding-left:0;
@@ -95,12 +85,7 @@ ul.buttons a{
     ul.buttons a:hover {
         color: #fec04f;
     }
-.column3{
-    width:16.6vw;
-    float:left;
-    margin:0;
-    padding:0;
-}
+
 .text h2{
     font-size:16pt;
 }

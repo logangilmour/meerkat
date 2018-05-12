@@ -9,8 +9,17 @@
     height:100vh;
 
     vertical-align:middle;
-    width:100vw;
+    width:100%;
     display:table;
+    padding:24pt 0;
+}
+.holder {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    margin: 0;
 }
 h1{
     font-size:48pt;
@@ -99,13 +108,7 @@ ul.buttons a{
     line-height: 28pt;
     padding-left: 0;
 }
-.holder {
-    display: table-cell;
-    vertical-align: middle;
-    width: 50vw;
-    padding-left: 25vw;
-    padding-right: 25vw;
-}
+
 .black {
     color: #fec04f;
     background-color: #252525;
